@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Starbucks</title>
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="#">
+          <img src="images/logo.png" class="logo" alt="Logo" />
+          <ul>
+            <li><a href="#" class="img1">Menu</a></li>
+            <li><a href="#" class="img2">Home</a></li>
+            <li><a href="#" class="img3">What's New?</a></li>
+            <li><a href="#" class="img4">Contact</a></li>
+          </ul>
+        </a>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>Its not just Coffee<br />It's <span>Starbucks</span></h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At nisi
+            fugit ipsa totam minus veritatis voluptate aperiam. Aspernatur eaque
+            tempora deserunt blanditiis tenetur, voluptatum consectetur vero
+            architecto aliquid corporis assumenda dolor vel nisi? Nulla, minus.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="imgBox">
+          <img src="images/img1.png" class="starbucks" alt="Image 1" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="images/thumb1.png"
+            class="img1"
+            alt="Thumb1"
+            onClick="imgSlider('images/img1.png');changeCircleColor('#017143')"
+          />
+        </li>
+        <li>
+          <img
+            src="images/thumb2.png"
+            class="img2"
+            alt="Thumb2"
+            onClick="imgSlider('images/img2.png');changeCircleColor('#eb7495')"
+          />
+        </li>
+        <li>
+          <img
+            src="images/thumb3.png"
+            class="img3"
+            alt="Thumb3"
+            onClick="imgSlider('images/img3.png');changeCircleColor('#d752b1')"
+          />
+        </li>
+      </ul>
+      <ul class="sci">
+        <li>
+          <a href="#"
+            ><img src="images/facebook.png" alt="Facebook" class="sci1"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="images/twitter.png" alt="Twitter" class="sci2"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="images/instagram.png" alt="Instagram" class="sci3"
+          /></a>
+        </li>
+      </ul>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
