@@ -1,6 +1,6 @@
 # Moonbucks - Coffee Website Design
 
-![Moonbucks Logo]([https://c4.wallpaperflare.com/wallpaper/832/260/8/other-wallpaper-preview.jpg])
+![Moonbucks Logo](https://c4.wallpaperflare.com/wallpaper/832/260/8/other-wallpaper-preview.jpg)
 
 ## Project Overview
 
