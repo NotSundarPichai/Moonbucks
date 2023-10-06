@@ -3,27 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" id="theme-style" />
+
     <title>Starbucks</title>
   </head>
   <body>
-    <section>
+    <section class="section">
       <div class="circle"></div>
       <header>
         <a href="#">
           <img src="images/logo.png" class="logo" alt="Logo" />
           <ul>
-            <li><a href="#" class="img1">Menu</a></li>
-            <li><a href="#" class="img2">Home</a></li>
-            <li><a href="#" class="img3">What's New?</a></li>
-            <li><a href="#" class="img4">Contact</a></li>
+            <li><a href="#" class="img1" id="nav1">Menu</a></li>
+            <li><a href="#" class="img2" id="nav2">Home</a></li>
+            <li><a href="#" class="img3" id="nav3">What's New?</a></li>
+            <li><a href="#" class="img4" id="nav4">Contact</a></li>
+          <button id="dark-mode-toggle" onclick="darkMode()" id="#nav5">Dark</button>
+            
           </ul>
         </a>
       </header>
       <div class="content">
         <div class="textBox">
-          <h2>Its not just Coffee<br />It's <span>Starbucks</span></h2>
-          <p>
+          <h2 class="text">Its not just Coffee<br />It's <span>Starbucks</span></h2>
+          <p id="ptext">
             In the realm of aromatic indulgence, where the alchemy of beans meets the kiss of boiling water, welcome to our digital haven, a sanctum for coffee connoisseurs and caffeine aficionados alike. Here, amidst the whirlwind of life, we beckon you to embark on a sensory journey that transcends the ordinary, one cup at a time. Our passion for coffee knows no bounds, and we have crafted this virtual oasis to share our love for the sacred brew, celebrating its rich history, diverse flavors, and the vibrant culture that swirls in every sip. Join us, dear visitor, as we embark on a voyage through the delightful world of coffee, where each roast unveils a new tale and every blend unveils an adventure waiting to be sipped.
           </p>
           <a href="#">Learn More</a>
@@ -76,6 +79,6 @@
         </li>
       </ul>
     </section>
-    <script src="script.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
